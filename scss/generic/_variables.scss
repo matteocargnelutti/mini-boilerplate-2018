@@ -1,0 +1,17 @@
+//------------------------------------------------------------------------------
+// Main variables
+//------------------------------------------------------------------------------
+
+
+// Media sizes
+$media-desktop: '1024px';
+$media-mobile: '768px';
+$media-mini: '320px';
+
+// Supports query
+// [!] This supports query targets modern browsers 
+// [!] To use anywhere you want advanced features
+// @supports (#{$supports-string}) {
+//     thing: 'stuff';
+// }
+$supports-string: "(grid-area: auto) and (--supports-var: 1)";
